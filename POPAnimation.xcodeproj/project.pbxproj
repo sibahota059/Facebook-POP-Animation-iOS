@@ -35,8 +35,6 @@
 		BAD6C3901A820C60002AC09E /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAD6C3731A820C60002AC09E /* POPSpringAnimation.mm */; };
 		BAD6C3911A820C60002AC09E /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = BAD6C3771A820C60002AC09E /* POPVector.mm */; };
 		BAD6C3921A820C60002AC09E /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD6C37A1A820C60002AC09E /* TransformationMatrix.cpp */; };
-		BAD6C3941A820DBF002AC09E /* SupportIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD6C3931A820DBE002AC09E /* SupportIcon.jpg */; };
-		BAD6C3971A821145002AC09E /* ConfirmButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD6C3961A821145002AC09E /* ConfirmButton.m */; };
 		BAD6C39B1A82162D002AC09E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD6C3991A82162D002AC09E /* DemoViewController.m */; };
 		BAD6C39C1A82162D002AC09E /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD6C39A1A82162D002AC09E /* DemoViewController.xib */; };
 		BAD6C39E1A8216CE002AC09E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD6C39D1A8216CE002AC09E /* ViewController.xib */; };
@@ -65,7 +63,9 @@
 		BAD6C3F31A821C01002AC09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6C3F21A821C01002AC09E /* Foundation.framework */; };
 		BAD6C3F51A821C0A002AC09E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6C3F41A821C0A002AC09E /* UIKit.framework */; };
 		BAD6C3F71A821C0F002AC09E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD6C3F61A821C0F002AC09E /* CoreGraphics.framework */; };
-		BAD6C3FA1A821EDD002AC09E /* boat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD6C3F91A821EDD002AC09E /* boat.jpg */; };
+		BAD6C3FD1A822780002AC09E /* ConfirmButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD6C3FC1A822780002AC09E /* ConfirmButton.m */; };
+		BAD6C4011A822792002AC09E /* boat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD6C3FF1A822792002AC09E /* boat.jpg */; };
+		BAD6C4021A822792002AC09E /* SupportIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD6C4001A822792002AC09E /* SupportIcon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,9 +149,6 @@
 		BAD6C37A1A820C60002AC09E /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
 		BAD6C37B1A820C60002AC09E /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
 		BAD6C37C1A820C60002AC09E /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
-		BAD6C3931A820DBE002AC09E /* SupportIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SupportIcon.jpg; sourceTree = "<group>"; };
-		BAD6C3951A821145002AC09E /* ConfirmButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmButton.h; sourceTree = "<group>"; };
-		BAD6C3961A821145002AC09E /* ConfirmButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmButton.m; sourceTree = "<group>"; };
 		BAD6C3981A82162D002AC09E /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		BAD6C3991A82162D002AC09E /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		BAD6C39A1A82162D002AC09E /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
@@ -203,7 +200,10 @@
 		BAD6C3F21A821C01002AC09E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAD6C3F41A821C0A002AC09E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAD6C3F61A821C0F002AC09E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BAD6C3F91A821EDD002AC09E /* boat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boat.jpg; sourceTree = "<group>"; };
+		BAD6C3FB1A822780002AC09E /* ConfirmButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmButton.h; path = "Custom Buttons/ConfirmButton.h"; sourceTree = "<group>"; };
+		BAD6C3FC1A822780002AC09E /* ConfirmButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmButton.m; path = "Custom Buttons/ConfirmButton.m"; sourceTree = "<group>"; };
+		BAD6C3FF1A822792002AC09E /* boat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boat.jpg; sourceTree = "<group>"; };
+		BAD6C4001A822792002AC09E /* SupportIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SupportIcon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,7 +230,7 @@
 		BAD6C30C1A820C22002AC09E = {
 			isa = PBXGroup;
 			children = (
-				BAD6C3F91A821EDD002AC09E /* boat.jpg */,
+				BAD6C3FE1A822792002AC09E /* Images */,
 				BAD6C3F61A821C0F002AC09E /* CoreGraphics.framework */,
 				BAD6C3F41A821C0A002AC09E /* UIKit.framework */,
 				BAD6C3F21A821C01002AC09E /* Foundation.framework */,
@@ -567,11 +567,19 @@
 		BAD6C3F81A821DDF002AC09E /* Custom Button */ = {
 			isa = PBXGroup;
 			children = (
-				BAD6C3951A821145002AC09E /* ConfirmButton.h */,
-				BAD6C3961A821145002AC09E /* ConfirmButton.m */,
-				BAD6C3931A820DBE002AC09E /* SupportIcon.jpg */,
+				BAD6C3FB1A822780002AC09E /* ConfirmButton.h */,
+				BAD6C3FC1A822780002AC09E /* ConfirmButton.m */,
 			);
 			name = "Custom Button";
+			sourceTree = "<group>";
+		};
+		BAD6C3FE1A822792002AC09E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BAD6C3FF1A822792002AC09E /* boat.jpg */,
+				BAD6C4001A822792002AC09E /* SupportIcon.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -655,11 +663,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAD6C39C1A82162D002AC09E /* DemoViewController.xib in Resources */,
-				BAD6C3941A820DBF002AC09E /* SupportIcon.jpg in Resources */,
+				BAD6C4021A822792002AC09E /* SupportIcon.jpg in Resources */,
 				BAD6C39E1A8216CE002AC09E /* ViewController.xib in Resources */,
 				BAD6C37F1A820C60002AC09E /* InfoPlist.strings in Resources */,
+				BAD6C4011A822792002AC09E /* boat.jpg in Resources */,
 				BAD6C3291A820C23002AC09E /* LaunchScreen.xib in Resources */,
-				BAD6C3FA1A821EDD002AC09E /* boat.jpg in Resources */,
 				BAD6C3801A820C60002AC09E /* pop-Info.plist in Resources */,
 				BAD6C3261A820C23002AC09E /* Images.xcassets in Resources */,
 			);
@@ -697,13 +705,13 @@
 				BAD6C3D71A821A2F002AC09E /* FlatButton.m in Sources */,
 				BAD6C38F1A820C60002AC09E /* POPPropertyAnimation.mm in Sources */,
 				BAD6C3901A820C60002AC09E /* POPSpringAnimation.mm in Sources */,
+				BAD6C3FD1A822780002AC09E /* ConfirmButton.m in Sources */,
 				BAD6C3E11A821A2F002AC09E /* DecayViewController.m in Sources */,
 				BAD6C3DA1A821A2F002AC09E /* PaperButton.m in Sources */,
 				BAD6C38A1A820C60002AC09E /* POPCustomAnimation.mm in Sources */,
 				BAD6C3D11A821A2F002AC09E /* DismissingAnimator.m in Sources */,
 				BAD6C3871A820C60002AC09E /* POPAnimator.mm in Sources */,
 				BAD6C3861A820C60002AC09E /* POPAnimationTracer.mm in Sources */,
-				BAD6C3971A821145002AC09E /* ConfirmButton.m in Sources */,
 				BAD6C39B1A82162D002AC09E /* DemoViewController.m in Sources */,
 				BAD6C3DF1A821A2F002AC09E /* ConstraintsViewController.m in Sources */,
 				BAD6C31E1A820C23002AC09E /* AppDelegate.m in Sources */,
@@ -916,6 +924,7 @@
 				BAD6C33A1A820C23002AC09E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAD6C33B1A820C23002AC09E /* Build configuration list for PBXNativeTarget "POPAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -924,6 +933,7 @@
 				BAD6C33D1A820C23002AC09E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

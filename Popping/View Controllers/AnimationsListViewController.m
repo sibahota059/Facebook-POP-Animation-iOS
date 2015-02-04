@@ -40,7 +40,8 @@ static NSString * const kCellIdentifier = @"cellIdentifier";
 {
     [super viewDidLoad];
     
-    self.title = @"popping";
+    self.title = @"Animation List";
+    
     [self configureTableView];
     [self configureTitleView];
 }
